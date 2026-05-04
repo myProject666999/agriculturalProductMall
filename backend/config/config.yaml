@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: 123456
+  database: agricultural_mall
+  charset: utf8mb4
+  parse_time: true
+  loc: Local
+
+jwt:
+  secret: agricultural-product-mall-secret-key-2024
+  expire: 24
+
+email:
+  smtp_host: smtp.example.com
+  smtp_port: 587
+  username: your-email@example.com
+  password: your-email-password
+  from: your-email@example.com
+
+upload:
+  path: ./uploads
+  max_size: 10485760

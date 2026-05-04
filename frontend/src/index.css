@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.header-container {
+  background: linear-gradient(135deg, #52c41a 0%, #389e0d 100%);
+  padding: 0 24px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-link {
+  color: rgba(255, 255, 255, 0.85);
+  transition: color 0.3s;
+}
+
+.menu-link:hover {
+  color: white;
+}
+
+.banner-section {
+  height: 400px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #262626;
+}
+
+.product-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.category-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.category-item:hover {
+  background-color: #f6ffed;
+  transform: scale(1.05);
+}
+
+.footer-container {
+  background: #262626;
+  color: rgba(255, 255, 255, 0.65);
+  padding: 40px 0;
+  text-align: center;
+}
+
+.user-avatar {
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.cart-badge .ant-badge-count {
+  background-color: #ff4d4f;
+}
+
+.btn-primary {
+  background: #52c41a;
+  border-color: #52c41a;
+}
+
+.btn-primary:hover {
+  background: #73d13d;
+  border-color: #73d13d;
+}
+
+.carousel-slide {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.recommend-section {
+  background: white;
+  padding: 40px 24px;
+  margin-top: 24px;
+}
+
+.news-section {
+  background: white;
+  padding: 40px 24px;
+  margin-top: 24px;
+}
+
+.ant-layout-header {
+  background: transparent !important;
+  padding: 0;
+}
+
+.ant-card-meta-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ant-card-meta-description {
+  color: #52c41a;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.price-tag {
+  color: #ff4d4f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price-tag::before {
+  content: '¥';
+  font-size: 14px;
+}
+
+.sidebar-menu {
+  height: 100%;
+  border-right: none;
+}
+
+.content-area {
+  background: white;
+  padding: 24px;
+  margin-left: 24px;
+  border-radius: 8px;
+}
